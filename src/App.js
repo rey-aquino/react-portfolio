@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Preloader from './components/Preloader';
 import Header from './components/Header';
+import Introduction from './components/Introduction';
 
 class App extends Component {
   render() {
@@ -8,6 +9,7 @@ class App extends Component {
       <div>
         <Preloader />
         <Header />
+        <Introduction />
       </div>
     );
   }
