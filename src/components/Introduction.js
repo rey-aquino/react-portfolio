@@ -26,35 +26,28 @@ class Introduction extends Component {
               <a
                 href="https://drive.google.com/file/d/1B6rGAGYwODXPX5LszrzL68U5I5CAj1KO/view?usp=sharing"
                 className="btn btn-success btn-rounded m-b-10"
-                target="_blank"
               >
                 SEE MY RESUME
               </a>
             </div>
             <div className="m-t-40">
               <div className="round align-self-center round-info m-t-40">
-                <a
-                  href="https://www.facebook.com/rey.aquino.969952"
-                  target="_blank"
-                >
+                <a href="https://www.facebook.com/rey.aquino.969952">
                   <i className="ti-user" />
                 </a>
               </div>
               <div className="round align-self-center round-info m-t-40">
-                <a
-                  href="https://www.linkedin.com/in/rey-aquino-39000618a/"
-                  target="_blank"
-                >
+                <a href="https://www.linkedin.com/in/rey-aquino-39000618a/">
                   <i className="ti-user" />
                 </a>
               </div>
               <div className="round align-self-center round-info m-t-40">
-                <a href="https://github.com/rey-aquino" target="_blank">
+                <a href="https://github.com/rey-aquino">
                   <i className="ti-user" />
                 </a>
               </div>
               <div className="round align-self-center round-info m-t-40">
-                <a href target="_blank">
+                <a href="true">
                   <i className="ti-user" />
                 </a>
               </div>
