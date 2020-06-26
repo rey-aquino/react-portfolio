@@ -7,6 +7,8 @@ import Proficiency from './components/Proficiency';
 import Experiences from './components/Experiences';
 import Projects from './components/Projects';
 import AchievementsCertifications from './components/AchievementsCertifications';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 class App extends Component {
   render() {
@@ -20,6 +22,8 @@ class App extends Component {
         <Experiences />
         <Projects />
         <AchievementsCertifications />
+        <Contact />
+        <Footer />
       </div>
     );
   }
