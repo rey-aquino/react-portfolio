@@ -6,6 +6,7 @@ import Skills from './components/Skills';
 import Proficiency from './components/Proficiency';
 import Experiences from './components/Experiences';
 import Projects from './components/Projects';
+import AchievementsCertifications from './components/AchievementsCertifications';
 
 class App extends Component {
   render() {
@@ -18,6 +19,7 @@ class App extends Component {
         <Proficiency />
         <Experiences />
         <Projects />
+        <AchievementsCertifications />
       </div>
     );
   }
