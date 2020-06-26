@@ -3,6 +3,7 @@ import Preloader from './components/Preloader';
 import Header from './components/Header';
 import Introduction from './components/Introduction';
 import Skills from './components/Skills';
+import Proficiency from './components/Proficiency';
 
 class App extends Component {
   render() {
@@ -12,6 +13,7 @@ class App extends Component {
         <Header />
         <Introduction />
         <Skills />
+        <Proficiency />
       </div>
     );
   }
