@@ -19,10 +19,12 @@ class Header extends Component {
                 <span className="navbar-toggler-icon" />
               </button>
               <a className="navbar-brand" href="index.html">
-                <img
-                  src="images/material-admin-logo.png"
+                {/* <img
+                  src={
+                    process.env.PUBLIC_URL + '/images/material-admin-logo.png'
+                  }
                   alt="admin template"
-                />
+                /> */}
               </a>
               <div className="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul className="navbar-nav ml-auto stylish-nav">

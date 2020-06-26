@@ -14,7 +14,9 @@ class Projects extends Component {
                 <div className="col-md-4 m-t-40">
                   <div className="image-box">
                     <img
-                      src="images/material-demo1.jpg"
+                      src={
+                        process.env.PUBLIC_URL + '/images/material-demo1.jpg'
+                      }
                       alt="demo1"
                       className="img-responsive"
                     />
@@ -31,7 +33,9 @@ class Projects extends Component {
                 <div className="col-md-4 m-t-40">
                   <div className="image-box">
                     <img
-                      src="images/material-demo2.jpg"
+                      src={
+                        process.env.PUBLIC_URL + '/images/material-demo2.jpg'
+                      }
                       alt="demo2"
                       className="img-responsive"
                     />
@@ -46,7 +50,9 @@ class Projects extends Component {
                 <div className="col-md-4 m-t-40">
                   <div className="image-box">
                     <img
-                      src="images/material-demo3.jpg"
+                      src={
+                        process.env.PUBLIC_URL + '/images/material-demo3.jpg'
+                      }
                       alt="demo3"
                       className="img-responsive"
                     />

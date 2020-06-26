@@ -55,7 +55,10 @@ class Introduction extends Component {
           </div>
           <div className="col-lg-7">
             <div className="hero-banner">
-              <img src="images/banner.jpg" alt="Material Pro admin template" />
+              {/* <img
+                src={process.env.PUBLIC_URL + '/images/banner.jpg'}
+                alt="Material Pro admin template"
+              /> */}
             </div>
           </div>
         </div>

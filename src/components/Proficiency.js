@@ -66,10 +66,10 @@ class Proficiency extends Component {
                 </div>
                 <div className="col-lg-7 m-t-40">
                   <div className="hero-banner">
-                    <img
-                      src="images/banner.jpg"
+                    {/* <img
+                      src={process.env.PUBLIC_URL + '/images/banner.jpg'}
                       alt="Material Pro admin template"
-                    />
+                    /> */}
                   </div>
                 </div>
               </div>

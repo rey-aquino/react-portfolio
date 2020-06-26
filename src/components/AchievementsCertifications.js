@@ -13,7 +13,7 @@ class AchievementsCertifications extends Component {
               <div className="row m-t-40">
                 <div className="col-lg-3 col-md-6 text-center">
                   <img
-                    src="images/logo.png"
+                    src={process.env.PUBLIC_URL + '/images/logo.png'}
                     alt="Material Pro admin template"
                   />
                   <h4 className="font-500">Leyte Normal University</h4>
@@ -24,7 +24,7 @@ class AchievementsCertifications extends Component {
                   <a href="https://drive.google.com/file/d/1-Sz74uSCaFTfgjJ_-LszQExmZfdoBDLL/view?usp=sharing">
                     <img
                       className="img-responsive"
-                      src="images/Cisco-Logo.png"
+                      src={process.env.PUBLIC_URL + '/images/Cisco-Logo.png'}
                       alt="Material Pro admin template"
                     />
                   </a>
@@ -41,7 +41,7 @@ class AchievementsCertifications extends Component {
                 <div className="col-lg-3 col-md-6 text-center">
                   <a href="https://drive.google.com/file/d/1QljHCoTSDxpsb7fNTS6YYwKViB0tSp8P/view?usp=sharing">
                     <img
-                      src="images/goabroad-logo.png"
+                      src={process.env.PUBLIC_URL + '/images/goabroad-logo.png'}
                       alt="Material Pro admin template"
                     />
                   </a>
