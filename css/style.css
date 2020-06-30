@@ -109,6 +109,12 @@ h1 {
   font-size: 36px;
 }
 
+h1.h1-contact {
+  line-height: 48px;
+  font-size: 36px;
+  margin: 5px -30px 5px 0;
+}
+
 h2 {
   line-height: 36px;
   font-size: 24px;
@@ -122,6 +128,12 @@ h3 {
 h4 {
   line-height: 22px;
   font-size: 18px;
+}
+
+h4.contact-h4 {
+  line-height: 22px;
+  font-size: 18px;
+  margin: 5px -30px 5px 0;
 }
 
 h5 {
