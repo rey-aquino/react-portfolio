@@ -1450,8 +1450,8 @@ a.btn:focus {
 .open > .dropdown-toggle.btn-info:hover,
 .btn-info.focus,
 .btn-info:focus {
-  background-color: #028ee1;
-  border: 1px solid #028ee1;
+  background-color: #00d1d1;
+  border: 1px solid #00d1d1;
 }
 
 .btn-warning.active.focus,
